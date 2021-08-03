@@ -3,18 +3,18 @@
 | Command                                   | Description |
 | ---                                       | ---         |
 | docker info                               | Displays information about the current docker environment |
-| docker run <image>                        | Runs docker images |
-| docker run -i -t <image> <terminal>       | Runs images in interactive (i) mode and connects using the specified terminal/teletype (t). Example usage: docker run -i -t ubuntu:18.04 /bin/bash |
-| docker run -d -t <image>                  | Runs an image in background mode using -d (--detach). Starts the container but doesn't attach the console |
-| docker search <image>                     | Returns a list of images on docker hub that match the specified image |
-| docker diff <container-id>                | Compares the container to its default image. |
-| docker commit <container-id> <image-name> | Commit the container to an image. Example: docker commit dee2jdos8943jj ubuntu-with-python |
-| docker build -t <image-name>              | Builds the specified image for use |
+| docker run image                          | Runs docker images |
+| docker run -i -t image terminal           | Runs images in interactive (i) mode and connects using the specified terminal/teletype (t). Example usage: docker run -i -t ubuntu:18.04 /bin/bash |
+| docker run -d -t image                    | Runs an image in background mode using -d (--detach). Starts the container but doesn't attach the console |
+| docker search image                       | Returns a list of images on docker hub that match the specified image |
+| docker diff container-id                  | Compares the container to its default image. |
+| docker commit container-id image-name     | Commit the container to an image. Example: docker commit dee2jdos8943jj ubuntu-with-python |
+| docker build -t image-name                | Builds the specified image for use |
 | docker images                             | Displays local images |
 | docker ps                                 | Lists the current running containers |
 | docker ps -a                              | Lists all containers (statuses included: Up, Exited, Paused, Restarting) |
-| docker stop <container-id>                | Stops the container with the specified id |
-| docker create <image>                     | Creates a container without starting it |
+| docker stop container-id                  | Stops the container with the specified id |
+| docker create image                       | Creates a container without starting it |
 
 # Running this file
 
